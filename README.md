@@ -4,11 +4,11 @@
 It is also worth mentioning that i wrote the LegoSongPlayer.cpp to check the midi file and play it on my computer with using the right libraries and modules.
 
 1. External Libraries:
-MidiFile.h (from the midifile library):
+_MidiFile.h (from the midifile library):
 Parses and extracts data from MIDI files.
 Provides functions for time analysis and linking note pairs.
 
-portaudio.h (PortAudio library):
+_portaudio.h (PortAudio library):
 Cross-platform audio library used for real-time audio playback.
 Manages audio streams and handles callbacks for sound output.
 
