@@ -14,10 +14,10 @@ Manages audio streams and handles callbacks for sound output.
 
 # C++ Standard Libraries:
 
-**<iostream>**: *Handles input/output for error messages and logs.*
+**iostream**: *Handles input/output for error messages and logs.*
 
-**<vector>**: *Manages the list of notes to be played.*
+**vector**: *Manages the list of notes to be played.*
 
-**<filesystem>**: *Checks the existence of the MIDI file.*
+**filesystem**: *Checks the existence of the MIDI file.*
 
-**<cmath>**: *Calculates frequencies using mathematical functions (e.g., pow, sin)*
+**cmath**: *Calculates frequencies using mathematical functions (e.g., pow, sin)*
