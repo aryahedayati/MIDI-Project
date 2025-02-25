@@ -3,20 +3,21 @@
 
 It is also worth mentioning that i wrote the LegoSongPlayer.cpp to check the midi file and play it on my computer with using the right libraries and modules.
 
-External Libraries:
-_MidiFile.h (from the midifile library):
+# External Libraries:
+**_MidiFile.h** (from the midifile library):
 Parses and extracts data from MIDI files.
 Provides functions for time analysis and linking note pairs.
 
-_portaudio.h (PortAudio library):
+**_portaudio.h** (PortAudio library):
 Cross-platform audio library used for real-time audio playback.
 Manages audio streams and handles callbacks for sound output.
 
-C++ Standard Libraries:
-<iostream>: Handles input/output for error messages and logs.
+# C++ Standard Libraries:
 
-<vector>: Manages the list of notes to be played.
+**<iostream>**: *Handles input/output for error messages and logs.*
 
-<filesystem>: Checks the existence of the MIDI file.
+**<vector>**: *Manages the list of notes to be played.*
 
-<cmath>: Calculates frequencies using mathematical functions (e.g., pow, sin)
+**<filesystem>**: *Checks the existence of the MIDI file.*
+
+**<cmath>**: *Calculates frequencies using mathematical functions (e.g., pow, sin)*
